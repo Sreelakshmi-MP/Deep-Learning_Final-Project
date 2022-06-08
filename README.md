@@ -10,3 +10,5 @@ python -m torch.distributed.launch --nproc_per_node=4 main_dino.py --data_path 
 You can evaluate ConvMixer as follows:
 python -m torch.distributed.launch --nproc_per_node=4 main_convmixer.py --data_path <your data path> --output_dir <your output directory>
   
+
+In reference to https://github.com/facebookresearch/dino and https://github.com/locuslab/convmixer
